@@ -1,0 +1,5880 @@
+[INFO] <2022-01-04 09:57:41.0450> Xopero.Device.App.Program 
+######                                                                                                                                                         
+  ######                                                                                                                                                       
+   #######                                                                                                                                                     
+     #######                                                                                                                                                   
+       #######                                                                                                                                                 
+         #######         ######          #############          ##############         ################       #############             #############          
+           #######     ######          ######     ######        ####      ######       ####                   ####     ######         ######     #######       
+             ####### ######          #####           #####      ####        #####      ####                   ####       #####      #####           #####      
+               ##########            ####             ####      ####        #####      ########               ####        ####      ####             ####      
+                 ######              ####             ####      #####     ######       #######                ####      #####       ####             #####     
+               ##########            #####           #####      ##############         ####                   #############         #####           #####      
+             ######  ######           #######     ######        #######                ####                   ###### #####            ######      ######       
+           ######      ######            #############          #####                  ################       ####     #####            #############          
+         #######                                                                                                                                               
+       #######                                                                                                                                                 
+     #######                                                                                                                                                   
+   #######                                                                                                                                                     
+ #######                                                                                                                                                       
+  ####                                                                                                                                                          
+
+
+[INFO] <2022-01-04 09:57:41.1767> Xopero.Device.App.Program 
+Xopero ONE Backup&Recovery Agent 0.8.7.2434
+
+
+[WARN] <2022-01-04 09:57:47.2549> Xopero.Core.Utils.EngineLogger 
+A warning was reported by a member: openStoreRead (LightningStore.cs:41)
+    File not found: 'C:\ProgramData\Xopero ONE\Xopero ONE Backup&Recovery Agent\DeviceService\device.db'
+
+
+[INFO] <2022-01-04 09:57:47.7095> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: start (VMwareService.cs:495)
+    VMware service started.
+
+
+[INFO] <2022-01-04 09:57:47.7160> Xopero.Core.Utils.EngineLogger 
+BackupEngine service starting (ApplicationId: '464fe9ed-811e-4fc0-9e1c-cd48fdcbc188')
+
+
+[INFO] <2022-01-04 09:57:47.7306> Xopero.Core.Utils.EngineLogger 
+BackupEngine service started (ApplicationId: '464fe9ed-811e-4fc0-9e1c-cd48fdcbc188')
+
+
+[INFO] <2022-01-04 09:57:47.8240> Xopero.Management.Module.Network.Device.ConnectionService 
+Connection - attempt number #1
+
+
+[INFO] <2022-01-04 09:57:47.8240> Xopero.Management.Module.Network.Protocols.SignalR.SignalRDeviceClient 
+Trying to connect to http://localhost:28555/deviceHub
+
+
+[INFO] <2022-01-04 09:57:48.3292> Xopero.Management.Module.Network.Device.ConnectionService 
+Connection - success
+
+
+[INFO] <2022-01-04 09:57:48.4472> Xopero.Core.Utils.EngineLogger 
+Detected device type: Physical
+
+
+[INFO] <2022-01-04 10:37:36.4788> Xopero.Core.Utils.EngineLogger 
+Task package a8c7c12f-bf8f-41f6-96f9-2bc503e7b4d2 is not currently run.
+
+
+[INFO] <2022-01-04 10:37:36.6149> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '72f14d4c-75ef-4cfe-abf9-263059369cc7'
+
+
+[INFO] <2022-01-04 10:37:36.6341> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #1]: started
+
+
+[INFO] <2022-01-04 10:37:36.6626> Xopero.Core.Utils.EngineLogger 
+Task '72f14d4c-75ef-4cfe-abf9-263059369cc7' state changed: Running
+
+
+[INFO] <2022-01-04 10:37:41.6339> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 10:37:41.6339> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 10:37:43.5281> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 10:37:43.5281> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 10:37:48.8272> Xopero.Core.Utils.EngineLogger 
+No teams found in TetianaLutsenko/Restaurant_pullbranch
+
+
+[INFO] <2022-01-04 10:37:50.2478> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #1]: committed
+
+
+[INFO] <2022-01-04 10:37:50.2478> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #1]: ended
+
+
+[INFO] <2022-01-04 10:37:50.2949> Xopero.Core.Utils.EngineLogger 
+Task '72f14d4c-75ef-4cfe-abf9-263059369cc7' state changed: Completed
+
+
+[INFO] <2022-01-04 10:37:50.2949> Xopero.Core.Utils.EngineLogger 
+Task '72f14d4c-75ef-4cfe-abf9-263059369cc7' completed with result: 
+{
+  "BackupCopyId": "3277a573-126e-4792-88ad-e7858f60a1fe",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3180144,
+  "BackupCopyDataSize": 32895,
+  "TimeElapsed": 14,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 37955,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 16
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 16
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 10:37:51.8816> Xopero.Core.Utils.EngineLogger 
+Task '72f14d4c-75ef-4cfe-abf9-263059369cc7' was removed
+
+
+[INFO] <2022-01-04 10:38:54.6106> Xopero.Core.Utils.EngineLogger 
+Task package 9113409f-9443-4307-8c0a-1c807eb60be1 is not currently run.
+
+
+[INFO] <2022-01-04 10:38:54.6639> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '3ddb7a2a-b147-41f3-8b33-40daf7597f2e'
+
+
+[INFO] <2022-01-04 10:38:54.6727> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 10:38:54.6727> Xopero.Core.Utils.EngineLogger 
+Task '3ddb7a2a-b147-41f3-8b33-40daf7597f2e' state changed: Running
+
+
+[ERROR] <2022-01-04 10:38:54.6727> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:38:55.9130> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/Restaurant_test387.git
+
+
+[INFO] <2022-01-04 10:38:56.2621> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:38:57.3601> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[ERROR] <2022-01-04 10:38:57.9574> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label bug: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:58.1917> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label documentation: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:58.4287> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label duplicate: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:58.6692> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label enhancement: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:58.9337> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label good first issue: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:59.1909> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label help wanted: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:59.4792> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label invalid: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:38:59.8047> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label question: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:39:00.0483> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label wontfix: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 10:39:00.0483> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitLabels restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 10:39:00.0483> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 10:39:00.0483> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 10:39:00.3843> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:39:00.9938> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0019ok refs/heads/master
+    0000
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitHooks restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 10:39:05.3432> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[ERROR] <2022-01-04 10:39:05.3692> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The method or operation is not implemented.
+
+
+[ERROR] <2022-01-04 10:39:05.3692> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitCollaborators restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 10:39:05.3729> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 10:39:05.3729> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 10:39:05.3945> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 10:39:05.3945> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 10:39:05.4199> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:39:05.4199> Xopero.Core.Utils.EngineLogger 
+Task '3ddb7a2a-b147-41f3-8b33-40daf7597f2e' state changed: Completed
+
+
+[INFO] <2022-01-04 10:39:05.4199> Xopero.Core.Utils.EngineLogger 
+Task '3ddb7a2a-b147-41f3-8b33-40daf7597f2e' completed with result: 
+{
+  "TimeElapsed": 11,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 15
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 12
+  },
+  "BytesRestored": 33926,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitCollaborators": 1,
+      "GitHooks": 1,
+      "GitLabels": 1
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 10:39:06.7406> Xopero.Core.Utils.EngineLogger 
+Task '3ddb7a2a-b147-41f3-8b33-40daf7597f2e' was removed
+
+
+[INFO] <2022-01-04 10:43:13.4825> Xopero.Core.Utils.EngineLogger 
+Task package ceabb7c3-c2a6-4cb2-9b28-a9e9b48d7392 is not currently run.
+
+
+[INFO] <2022-01-04 10:43:13.4825> Xopero.Core.Utils.EngineLogger 
+Task package b6741312-f23c-41f5-a80c-daa9cf73e222 is not currently run.
+
+
+[INFO] <2022-01-04 10:43:13.4825> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'd8b00686-c118-40d8-82d7-58706f97437f'
+
+
+[INFO] <2022-01-04 10:43:13.4825> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 10:43:13.4962> Xopero.Core.Utils.EngineLogger 
+Task 'd8b00686-c118-40d8-82d7-58706f97437f' state changed: Running
+
+
+[INFO] <2022-01-04 10:43:13.4962> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '9f0a8761-93ce-431e-9632-9a6b011a8009'
+
+
+[INFO] <2022-01-04 10:43:13.4962> Xopero.Core.Utils.EngineLogger 
+Task '9f0a8761-93ce-431e-9632-9a6b011a8009' state changed: Running
+
+
+[INFO] <2022-01-04 10:43:13.4962> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 10:43:15.2490> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 10:43:15.2490> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 10:43:15.4576> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 10:43:15.4576> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 10:43:18.2035> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:43:18.8256> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 10:43:18.8256> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 10:43:21.9799> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 10:43:21.9808> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 10:43:21.9808> Xopero.Core.Utils.EngineLogger 
+Task 'd8b00686-c118-40d8-82d7-58706f97437f' state changed: Completed
+
+
+[INFO] <2022-01-04 10:43:21.9808> Xopero.Core.Utils.EngineLogger 
+Task 'd8b00686-c118-40d8-82d7-58706f97437f' completed with result: 
+{
+  "BackupCopyId": "344c9ef6-1231-428f-ad78-81830afea193",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3156179,
+  "BackupCopyDataSize": 8948,
+  "TimeElapsed": 8,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 8354,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 10:43:22.5536> Xopero.Core.Utils.EngineLogger 
+Task 'd8b00686-c118-40d8-82d7-58706f97437f' was removed
+
+
+[INFO] <2022-01-04 10:43:23.5333> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 10:43:23.5333> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 10:43:23.5333> Xopero.Core.Utils.EngineLogger 
+Task '9f0a8761-93ce-431e-9632-9a6b011a8009' state changed: Completed
+
+
+[INFO] <2022-01-04 10:43:23.5426> Xopero.Core.Utils.EngineLogger 
+Task '9f0a8761-93ce-431e-9632-9a6b011a8009' completed with result: 
+{
+  "BackupCopyId": "981cd2b2-f4f2-4184-a0ba-2dbb537ec503",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3178678,
+  "BackupCopyDataSize": 31433,
+  "TimeElapsed": 10,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 33386,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 10:43:25.5632> Xopero.Core.Utils.EngineLogger 
+Task '9f0a8761-93ce-431e-9632-9a6b011a8009' was removed
+
+
+[INFO] <2022-01-04 10:43:49.6326> Xopero.Core.Utils.EngineLogger 
+Task package 942b22ab-3a76-44ba-ae9a-296c8e80f1c1 is not currently run.
+
+
+[INFO] <2022-01-04 10:43:49.6383> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '6d762ba7-b885-45c7-a535-e0c2fceb6e3a'
+
+
+[INFO] <2022-01-04 10:43:49.6383> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 10:43:49.6383> Xopero.Core.Utils.EngineLogger 
+Task '6d762ba7-b885-45c7-a535-e0c2fceb6e3a' state changed: Running
+
+
+[ERROR] <2022-01-04 10:43:49.6383> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:43:50.6992> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_1.git
+
+
+[INFO] <2022-01-04 10:43:50.9852> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:43:51.7192> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 10:43:51.9572> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 10:43:52.7114> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 10:43:52.7114> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 10:43:52.7199> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:43:52.7199> Xopero.Core.Utils.EngineLogger 
+Task '6d762ba7-b885-45c7-a535-e0c2fceb6e3a' state changed: Completed
+
+
+[INFO] <2022-01-04 10:43:52.7199> Xopero.Core.Utils.EngineLogger 
+Task '6d762ba7-b885-45c7-a535-e0c2fceb6e3a' completed with result: 
+{
+  "TimeElapsed": 3,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 8354,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 10:43:55.6770> Xopero.Core.Utils.EngineLogger 
+Task '6d762ba7-b885-45c7-a535-e0c2fceb6e3a' was removed
+
+
+[INFO] <2022-01-04 10:44:28.5338> Xopero.Core.Utils.EngineLogger 
+Task package ae40ac61-ca30-4f04-9d26-7d8c9101a531 is not currently run.
+
+
+[INFO] <2022-01-04 10:44:28.5338> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'b3d4faa0-1bae-4c03-8e31-1ce550f7346c'
+
+
+[INFO] <2022-01-04 10:44:28.5338> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 10:44:28.5427> Xopero.Core.Utils.EngineLogger 
+Task 'b3d4faa0-1bae-4c03-8e31-1ce550f7346c' state changed: Running
+
+
+[ERROR] <2022-01-04 10:44:28.5427> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:44:29.8975> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/Restaurant_test387_1.git
+
+
+[INFO] <2022-01-04 10:44:30.1878> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:44:31.3677> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 10:44:33.3718> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 10:44:33.9843> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 10:44:38.7539> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 10:44:38.7539> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 10:44:38.7626> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 10:44:38.7626> Xopero.Core.Utils.EngineLogger 
+Task 'b3d4faa0-1bae-4c03-8e31-1ce550f7346c' state changed: Completed
+
+
+[INFO] <2022-01-04 10:44:38.7626> Xopero.Core.Utils.EngineLogger 
+Task 'b3d4faa0-1bae-4c03-8e31-1ce550f7346c' completed with result: 
+{
+  "TimeElapsed": 10,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 33386,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 10:44:40.6026> Xopero.Core.Utils.EngineLogger 
+Task 'b3d4faa0-1bae-4c03-8e31-1ce550f7346c' was removed
+
+
+[INFO] <2022-01-04 11:05:25.1941> Xopero.Core.Utils.EngineLogger 
+Task package 0509b9e8-0a93-4f8a-adeb-891e992e19c2 is not currently run.
+
+
+[INFO] <2022-01-04 11:05:25.1991> Xopero.Core.Utils.EngineLogger 
+Task package 83534ca9-2e55-4a80-902c-43c278eb1d82 is not currently run.
+
+
+[INFO] <2022-01-04 11:05:25.1991> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '00933314-55fb-4998-938b-e18d44fa2a26'
+
+
+[INFO] <2022-01-04 11:05:25.1991> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:05:25.1991> Xopero.Core.Utils.EngineLogger 
+Task '00933314-55fb-4998-938b-e18d44fa2a26' state changed: Running
+
+
+[INFO] <2022-01-04 11:05:25.1991> Xopero.Core.Utils.EngineLogger 
+Task package ec6d9bc8-b728-4c03-812e-d49e318a62b2 is not currently run.
+
+
+[INFO] <2022-01-04 11:05:25.2147> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'bbb14d8e-e202-470f-aa68-b60351afd8fd'
+
+
+[INFO] <2022-01-04 11:05:25.2147> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:05:25.2147> Xopero.Core.Utils.EngineLogger 
+Task 'bbb14d8e-e202-470f-aa68-b60351afd8fd' state changed: Running
+
+
+[INFO] <2022-01-04 11:05:25.2147> Xopero.Core.Utils.EngineLogger 
+Task package 4fbdf35e-d7b2-434e-9812-2f9da1ee2ac2 is not currently run.
+
+
+[INFO] <2022-01-04 11:05:25.2147> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'c651fed7-54b1-4bed-99b3-c3d0c7275b29'
+
+
+[INFO] <2022-01-04 11:05:25.2300> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:05:25.2300> Xopero.Core.Utils.EngineLogger 
+Task 'c651fed7-54b1-4bed-99b3-c3d0c7275b29' state changed: Running
+
+
+[INFO] <2022-01-04 11:05:25.2300> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '93d5c951-bc86-4e3f-9507-30a2a6ad9856'
+
+
+[INFO] <2022-01-04 11:05:25.2300> Xopero.Core.Utils.EngineLogger 
+Task '93d5c951-bc86-4e3f-9507-30a2a6ad9856' state changed: Running
+
+
+[INFO] <2022-01-04 11:05:25.2300> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:05:27.0400> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 11:05:27.0400> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 11:05:27.2409> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:05:27.2409> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:05:27.3821> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:05:27.3821> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:05:27.4049> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 11:05:27.4049> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 11:05:29.5259> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:05:29.5268> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 11:05:30.1308> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:05:30.5386> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:05:30.5386> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 11:05:30.7208> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:05:34.1135> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:05:34.1135> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:05:34.1216> Xopero.Core.Utils.EngineLogger 
+Task '00933314-55fb-4998-938b-e18d44fa2a26' state changed: Completed
+
+
+[INFO] <2022-01-04 11:05:34.1216> Xopero.Core.Utils.EngineLogger 
+Task '00933314-55fb-4998-938b-e18d44fa2a26' completed with result: 
+{
+  "BackupCopyId": "a65a035d-e856-4283-8fdb-7491fffe706d",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3156185,
+  "BackupCopyDataSize": 8952,
+  "TimeElapsed": 9,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 8354,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:05:34.2458> Xopero.Core.Utils.EngineLogger 
+Task '00933314-55fb-4998-938b-e18d44fa2a26' was removed
+
+
+[INFO] <2022-01-04 11:05:34.6012> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:05:34.6012> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:05:34.6090> Xopero.Core.Utils.EngineLogger 
+Task '93d5c951-bc86-4e3f-9507-30a2a6ad9856' state changed: Completed
+
+
+[INFO] <2022-01-04 11:05:34.6090> Xopero.Core.Utils.EngineLogger 
+Task '93d5c951-bc86-4e3f-9507-30a2a6ad9856' completed with result: 
+{
+  "BackupCopyId": "d818184e-fd28-44c8-a8ba-b4fed05aeb4c",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3150075,
+  "BackupCopyDataSize": 2813,
+  "TimeElapsed": 9,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 2303,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:05:35.0919> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:05:35.0919> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:05:35.0919> Xopero.Core.Utils.EngineLogger 
+Task 'c651fed7-54b1-4bed-99b3-c3d0c7275b29' state changed: Completed
+
+
+[INFO] <2022-01-04 11:05:35.0919> Xopero.Core.Utils.EngineLogger 
+Task 'c651fed7-54b1-4bed-99b3-c3d0c7275b29' completed with result: 
+{
+  "BackupCopyId": "11a854b8-a252-4d29-98a6-ebe3d4d73828",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3150161,
+  "BackupCopyDataSize": 2888,
+  "TimeElapsed": 10,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 5126,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:05:36.5790> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:05:36.5790> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:05:36.5790> Xopero.Core.Utils.EngineLogger 
+Task 'bbb14d8e-e202-470f-aa68-b60351afd8fd' state changed: Completed
+
+
+[INFO] <2022-01-04 11:05:36.5790> Xopero.Core.Utils.EngineLogger 
+Task 'bbb14d8e-e202-470f-aa68-b60351afd8fd' completed with result: 
+{
+  "BackupCopyId": "b3224ecf-d7dd-466c-aafd-968f3a5b6def",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3179746,
+  "BackupCopyDataSize": 32499,
+  "TimeElapsed": 11,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 34482,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:05:37.2622> Xopero.Core.Utils.EngineLogger 
+Task 'bbb14d8e-e202-470f-aa68-b60351afd8fd' was removed
+
+
+[INFO] <2022-01-04 11:05:37.2864> Xopero.Core.Utils.EngineLogger 
+Task '93d5c951-bc86-4e3f-9507-30a2a6ad9856' was removed
+
+
+[INFO] <2022-01-04 11:05:37.3210> Xopero.Core.Utils.EngineLogger 
+Task 'c651fed7-54b1-4bed-99b3-c3d0c7275b29' was removed
+
+
+[INFO] <2022-01-04 11:06:05.2435> Xopero.Core.Utils.EngineLogger 
+Task package 14ada3a5-3538-40b2-9132-20ccbed1bfc1 is not currently run.
+
+
+[INFO] <2022-01-04 11:06:05.2485> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'f9c3b941-d6a0-4436-9ae6-efda02a8c289'
+
+
+[INFO] <2022-01-04 11:06:05.2485> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:06:05.2485> Xopero.Core.Utils.EngineLogger 
+Task 'f9c3b941-d6a0-4436-9ae6-efda02a8c289' state changed: Running
+
+
+[ERROR] <2022-01-04 11:06:05.2485> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:06:06.3993> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_2.git
+
+
+[INFO] <2022-01-04 11:06:06.7064> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:06:07.3858> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:06:07.3888> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:06:07.7055> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:06:07.7055> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:06:08.5443> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:06:08.8049> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:06:09.7275> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:06:09.7275> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:06:09.7364> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:06:09.7364> Xopero.Core.Utils.EngineLogger 
+Task 'f9c3b941-d6a0-4436-9ae6-efda02a8c289' state changed: Completed
+
+
+[INFO] <2022-01-04 11:06:09.7364> Xopero.Core.Utils.EngineLogger 
+Task 'f9c3b941-d6a0-4436-9ae6-efda02a8c289' completed with result: 
+{
+  "TimeElapsed": 4,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 2303,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:06:11.2864> Xopero.Core.Utils.EngineLogger 
+Task 'f9c3b941-d6a0-4436-9ae6-efda02a8c289' was removed
+
+
+[INFO] <2022-01-04 11:08:48.4737> Xopero.Core.Utils.EngineLogger 
+Task package 59fc9820-f4ef-4d3e-be14-b42179568492 is not currently run.
+
+
+[INFO] <2022-01-04 11:08:48.4815> Xopero.Core.Utils.EngineLogger 
+Task package 947455cc-31b8-4a4e-9a56-3cdc4df755a2 is not currently run.
+
+
+[INFO] <2022-01-04 11:08:48.4815> Xopero.Core.Utils.EngineLogger 
+Task package 9f605612-0c1d-475c-b302-7adb83db7fc2 is not currently run.
+
+
+[INFO] <2022-01-04 11:08:48.4815> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '0a67eb5d-ece1-443d-a8dc-6947cd0fa38f'
+
+
+[INFO] <2022-01-04 11:08:48.4815> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:08:48.4815> Xopero.Core.Utils.EngineLogger 
+Task '0a67eb5d-ece1-443d-a8dc-6947cd0fa38f' state changed: Running
+
+
+[INFO] <2022-01-04 11:08:48.4994> Xopero.Core.Utils.EngineLogger 
+Task package c8f2ff18-9437-4795-a6e3-016ab1c903e2 is not currently run.
+
+
+[INFO] <2022-01-04 11:08:48.4994> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'ca915c6d-53d3-4500-8c66-d2f89161df97'
+
+
+[INFO] <2022-01-04 11:08:48.4994> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:08:48.4994> Xopero.Core.Utils.EngineLogger 
+Task 'ca915c6d-53d3-4500-8c66-d2f89161df97' state changed: Running
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Task package 7c7cab09-0ea6-4bed-b222-9108f98c2db2 is not currently run.
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'bb8c89fd-db3a-40e0-9196-b543b28c2602'
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Task 'bb8c89fd-db3a-40e0-9196-b543b28c2602' state changed: Running
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '21cbde32-79fc-48c9-9690-86b83d6cdd3b'
+
+
+[INFO] <2022-01-04 11:08:48.5132> Xopero.Core.Utils.EngineLogger 
+Task '21cbde32-79fc-48c9-9690-86b83d6cdd3b' state changed: Running
+
+
+[INFO] <2022-01-04 11:08:48.5316> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier 'a318f44c-ab23-4349-a0c9-29b9e23698f1'
+
+
+[INFO] <2022-01-04 11:08:48.5316> Xopero.Core.Utils.EngineLogger 
+Task 'a318f44c-ab23-4349-a0c9-29b9e23698f1' state changed: Running
+
+
+[INFO] <2022-01-04 11:08:48.5316> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:08:48.5513> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: started
+
+
+[INFO] <2022-01-04 11:08:50.9933> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:08:50.9933> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:08:51.0478> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:08:51.0478> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:08:51.1103> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:08:51.1103> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:08:51.1386> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 11:08:51.1386> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 11:08:51.4295> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 11:08:51.4295> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 11:08:53.5384> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:08:53.7969> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:08:53.7969> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 11:08:54.1910> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:08:54.1910> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 11:08:54.2454> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:08:54.7805> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:08:56.7556> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:08:56.7556> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:08:56.7640> Xopero.Core.Utils.EngineLogger 
+Task 'a318f44c-ab23-4349-a0c9-29b9e23698f1' state changed: Completed
+
+
+[INFO] <2022-01-04 11:08:56.7640> Xopero.Core.Utils.EngineLogger 
+Task 'a318f44c-ab23-4349-a0c9-29b9e23698f1' completed with result: 
+{
+  "BackupCopyId": "4de2abec-bd42-4e74-9d40-5fdac60b1581",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3148830,
+  "BackupCopyDataSize": 1569,
+  "TimeElapsed": 8,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 1154,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:08:57.6226> Xopero.Core.Utils.EngineLogger 
+Task 'a318f44c-ab23-4349-a0c9-29b9e23698f1' was removed
+
+
+[INFO] <2022-01-04 11:08:58.8448> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:08:58.8448> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:08:58.8724> Xopero.Core.Utils.EngineLogger 
+Task 'ca915c6d-53d3-4500-8c66-d2f89161df97' state changed: Completed
+
+
+[INFO] <2022-01-04 11:08:58.8724> Xopero.Core.Utils.EngineLogger 
+Task 'ca915c6d-53d3-4500-8c66-d2f89161df97' completed with result: 
+{
+  "BackupCopyId": "694b81fa-2463-4a91-8509-cae7b485b4fb",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3148810,
+  "BackupCopyDataSize": 1547,
+  "TimeElapsed": 10,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 1022,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:08:59.0481> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:08:59.0481> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:08:59.0481> Xopero.Core.Utils.EngineLogger 
+Task '0a67eb5d-ece1-443d-a8dc-6947cd0fa38f' state changed: Completed
+
+
+[INFO] <2022-01-04 11:08:59.0481> Xopero.Core.Utils.EngineLogger 
+Task '0a67eb5d-ece1-443d-a8dc-6947cd0fa38f' completed with result: 
+{
+  "BackupCopyId": "cfeb9c45-14a0-403e-b2af-67eb6dec3caf",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3157334,
+  "BackupCopyDataSize": 10100,
+  "TimeElapsed": 11,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 9607,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:08:59.4822> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:08:59.4822> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:08:59.4822> Xopero.Core.Utils.EngineLogger 
+Task '21cbde32-79fc-48c9-9690-86b83d6cdd3b' state changed: Completed
+
+
+[INFO] <2022-01-04 11:08:59.4822> Xopero.Core.Utils.EngineLogger 
+Task '21cbde32-79fc-48c9-9690-86b83d6cdd3b' completed with result: 
+{
+  "BackupCopyId": "f687d78e-d5e1-4566-a647-ed48090c0f90",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3150161,
+  "BackupCopyDataSize": 2888,
+  "TimeElapsed": 11,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 5126,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:08:59.8914> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: committed
+
+
+[INFO] <2022-01-04 11:08:59.8914> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #2]: ended
+
+
+[INFO] <2022-01-04 11:08:59.8914> Xopero.Core.Utils.EngineLogger 
+Task 'bb8c89fd-db3a-40e0-9196-b543b28c2602' state changed: Completed
+
+
+[INFO] <2022-01-04 11:08:59.8914> Xopero.Core.Utils.EngineLogger 
+Task 'bb8c89fd-db3a-40e0-9196-b543b28c2602' completed with result: 
+{
+  "BackupCopyId": "8f4d717d-cbd5-4e5a-a833-826f2b99f2c8",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3150170,
+  "BackupCopyDataSize": 2895,
+  "TimeElapsed": 11,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 5161,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:09:00.5667> Xopero.Core.Utils.EngineLogger 
+Task '0a67eb5d-ece1-443d-a8dc-6947cd0fa38f' was removed
+
+
+[INFO] <2022-01-04 11:09:00.5667> Xopero.Core.Utils.EngineLogger 
+Task 'ca915c6d-53d3-4500-8c66-d2f89161df97' was removed
+
+
+[INFO] <2022-01-04 11:09:00.6334> Xopero.Core.Utils.EngineLogger 
+Task 'bb8c89fd-db3a-40e0-9196-b543b28c2602' was removed
+
+
+[INFO] <2022-01-04 11:09:00.6378> Xopero.Core.Utils.EngineLogger 
+Task '21cbde32-79fc-48c9-9690-86b83d6cdd3b' was removed
+
+
+[INFO] <2022-01-04 11:09:19.8841> Xopero.Core.Utils.EngineLogger 
+Task package 7d956e2c-dc6f-48d5-ba3f-11ee0f6328b1 is not currently run.
+
+
+[INFO] <2022-01-04 11:09:19.8909> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '9fef6d70-62e1-46cb-b557-a5409c9b5c09'
+
+
+[INFO] <2022-01-04 11:09:19.8909> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:09:19.8909> Xopero.Core.Utils.EngineLogger 
+Task '9fef6d70-62e1-46cb-b557-a5409c9b5c09' state changed: Running
+
+
+[ERROR] <2022-01-04 11:09:19.8909> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:09:20.8193> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_3.git
+
+
+[INFO] <2022-01-04 11:09:21.3481> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:09:22.1295> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:09:22.1295> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:09:22.4031> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:09:22.4031> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:09:23.0496> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:09:23.0496> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:09:23.3117> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:09:23.3117> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:09:23.5831> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:09:23.8094> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:09:24.7374> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:09:24.7374> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:09:24.7479> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:09:24.7479> Xopero.Core.Utils.EngineLogger 
+Task '9fef6d70-62e1-46cb-b557-a5409c9b5c09' state changed: Completed
+
+
+[INFO] <2022-01-04 11:09:24.7479> Xopero.Core.Utils.EngineLogger 
+Task '9fef6d70-62e1-46cb-b557-a5409c9b5c09' completed with result: 
+{
+  "TimeElapsed": 5,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 1154,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:09:25.9270> Xopero.Core.Utils.EngineLogger 
+Task '9fef6d70-62e1-46cb-b557-a5409c9b5c09' was removed
+
+
+[INFO] <2022-01-04 11:13:10.6772> Xopero.Core.Utils.EngineLogger 
+Task package e813333c-5778-441d-a65f-602f78a458a2 is not currently run.
+
+
+[INFO] <2022-01-04 11:13:10.6772> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '80894e82-bce3-40f9-b7a4-b2f35092f5fc'
+
+
+[INFO] <2022-01-04 11:13:10.6841> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: started
+
+
+[INFO] <2022-01-04 11:13:10.6841> Xopero.Core.Utils.EngineLogger 
+Task '80894e82-bce3-40f9-b7a4-b2f35092f5fc' state changed: Running
+
+
+[INFO] <2022-01-04 11:13:13.3713> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:13:13.3713> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:13:16.8588> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:13:20.0565> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: committed
+
+
+[INFO] <2022-01-04 11:13:20.0565> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: ended
+
+
+[INFO] <2022-01-04 11:13:20.0645> Xopero.Core.Utils.EngineLogger 
+Task '80894e82-bce3-40f9-b7a4-b2f35092f5fc' state changed: Completed
+
+
+[INFO] <2022-01-04 11:13:20.0645> Xopero.Core.Utils.EngineLogger 
+Task '80894e82-bce3-40f9-b7a4-b2f35092f5fc' completed with result: 
+{
+  "BackupCopyId": "14ebd82c-fbf4-4b07-839a-c9f01213bcef",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3157332,
+  "BackupCopyDataSize": 10100,
+  "TimeElapsed": 9,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 9606,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "ModifiedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "UnchangedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:13:22.7418> Xopero.Core.Utils.EngineLogger 
+Task '80894e82-bce3-40f9-b7a4-b2f35092f5fc' was removed
+
+
+[INFO] <2022-01-04 11:13:43.0878> Xopero.Core.Utils.EngineLogger 
+Task package 3256178d-28a9-49cc-be30-b8049ac553b1 is not currently run.
+
+
+[INFO] <2022-01-04 11:13:43.0912> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '663e14c5-a3b6-4d46-ba8a-f7fcab9dd0ba'
+
+
+[INFO] <2022-01-04 11:13:43.0912> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:13:43.0912> Xopero.Core.Utils.EngineLogger 
+Task '663e14c5-a3b6-4d46-ba8a-f7fcab9dd0ba' state changed: Running
+
+
+[ERROR] <2022-01-04 11:13:43.0912> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:13:44.0667> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_4.git
+
+
+[INFO] <2022-01-04 11:13:44.5910> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:13:45.2889> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:13:45.5664> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:13:46.7017> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:13:46.7017> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:13:46.7017> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:13:46.7017> Xopero.Core.Utils.EngineLogger 
+Task '663e14c5-a3b6-4d46-ba8a-f7fcab9dd0ba' state changed: Completed
+
+
+[INFO] <2022-01-04 11:13:46.7017> Xopero.Core.Utils.EngineLogger 
+Task '663e14c5-a3b6-4d46-ba8a-f7fcab9dd0ba' completed with result: 
+{
+  "TimeElapsed": 4,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 9606,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:13:49.1301> Xopero.Core.Utils.EngineLogger 
+Task '663e14c5-a3b6-4d46-ba8a-f7fcab9dd0ba' was removed
+
+
+[INFO] <2022-01-04 11:15:23.3098> Xopero.Core.Utils.EngineLogger 
+Task package f5c3ee86-e757-410f-b0e0-9f87019be6b2 is not currently run.
+
+
+[INFO] <2022-01-04 11:15:23.3098> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '7fb74278-f64e-44b9-a50f-a485a561a0c5'
+
+
+[INFO] <2022-01-04 11:15:23.3098> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: started
+
+
+[INFO] <2022-01-04 11:15:23.3098> Xopero.Core.Utils.EngineLogger 
+Task '7fb74278-f64e-44b9-a50f-a485a561a0c5' state changed: Running
+
+
+[INFO] <2022-01-04 11:15:25.1230> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:15:25.1230> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:15:27.3150> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:15:30.6616> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: committed
+
+
+[INFO] <2022-01-04 11:15:30.6616> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: ended
+
+
+[INFO] <2022-01-04 11:15:30.6700> Xopero.Core.Utils.EngineLogger 
+Task '7fb74278-f64e-44b9-a50f-a485a561a0c5' state changed: Completed
+
+
+[INFO] <2022-01-04 11:15:30.6700> Xopero.Core.Utils.EngineLogger 
+Task '7fb74278-f64e-44b9-a50f-a485a561a0c5' completed with result: 
+{
+  "BackupCopyId": "3abfd77e-dcec-4cde-8e14-77abccdbd49a",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3148800,
+  "BackupCopyDataSize": 1539,
+  "TimeElapsed": 7,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 1034,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:15:32.3598> Xopero.Core.Utils.EngineLogger 
+Task '7fb74278-f64e-44b9-a50f-a485a561a0c5' was removed
+
+
+[INFO] <2022-01-04 11:15:50.2584> Xopero.Core.Utils.EngineLogger 
+Task package 8ad55b6e-81aa-4155-b518-7a41be014a61 is not currently run.
+
+
+[INFO] <2022-01-04 11:15:50.2629> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '58d93453-21da-4336-a386-76a126a4dde5'
+
+
+[INFO] <2022-01-04 11:15:50.2629> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:15:50.2629> Xopero.Core.Utils.EngineLogger 
+Task '58d93453-21da-4336-a386-76a126a4dde5' state changed: Running
+
+
+[ERROR] <2022-01-04 11:15:50.2629> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:15:51.3355> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_5.git
+
+
+[INFO] <2022-01-04 11:15:51.8846> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:15:52.5626> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:15:52.5626> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:15:52.8227> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:15:52.8227> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:15:53.0976> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:15:53.3157> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:15:54.3889> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:15:54.3889> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:15:54.3889> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:15:54.3889> Xopero.Core.Utils.EngineLogger 
+Task '58d93453-21da-4336-a386-76a126a4dde5' state changed: Completed
+
+
+[INFO] <2022-01-04 11:15:54.3889> Xopero.Core.Utils.EngineLogger 
+Task '58d93453-21da-4336-a386-76a126a4dde5' completed with result: 
+{
+  "TimeElapsed": 4,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 1034,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:15:56.3050> Xopero.Core.Utils.EngineLogger 
+Task '58d93453-21da-4336-a386-76a126a4dde5' was removed
+
+
+[INFO] <2022-01-04 11:17:23.3571> Xopero.Core.Utils.EngineLogger 
+Task package cbe0f504-670c-4f13-b786-262bf2435332 is not currently run.
+
+
+[INFO] <2022-01-04 11:17:23.3571> Xopero.Core.Utils.EngineLogger 
+Running task 'BackupTask' with identifier '10857a15-63e6-4503-87f5-8a023b43a45e'
+
+
+[INFO] <2022-01-04 11:17:23.3571> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: started
+
+
+[INFO] <2022-01-04 11:17:23.3571> Xopero.Core.Utils.EngineLogger 
+Task '10857a15-63e6-4503-87f5-8a023b43a45e' state changed: Running
+
+
+[INFO] <2022-01-04 11:17:25.2790> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:17:25.2790> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:17:28.7470> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:17:33.3994> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: committed
+
+
+[INFO] <2022-01-04 11:17:33.3994> Xopero.Core.Utils.EngineLogger 
+Backup task [Plan #3]: ended
+
+
+[INFO] <2022-01-04 11:17:33.4117> Xopero.Core.Utils.EngineLogger 
+Task '10857a15-63e6-4503-87f5-8a023b43a45e' state changed: Completed
+
+
+[INFO] <2022-01-04 11:17:33.4117> Xopero.Core.Utils.EngineLogger 
+Task '10857a15-63e6-4503-87f5-8a023b43a45e' completed with result: 
+{
+  "BackupCopyId": "90006307-b4a5-459d-88fc-6856605a43e1",
+  "BackupCopyCreated": true,
+  "BackupCopySize": 3148822,
+  "BackupCopyDataSize": 1561,
+  "TimeElapsed": 10,
+  "BytesRead": 0,
+  "BackupCopyTakenDataSize": 1161,
+  "TotalResources": {
+    "ByKind": {
+      "Directory": 1,
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 12
+  },
+  "NewResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ModifiedResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "UnchangedResources": {
+    "ByKind": {
+      "Directory": 1
+    },
+    "Count": 1
+  },
+  "DeletedResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Type": "backup"
+}
+
+
+[INFO] <2022-01-04 11:17:35.4287> Xopero.Core.Utils.EngineLogger 
+Task '10857a15-63e6-4503-87f5-8a023b43a45e' was removed
+
+
+[INFO] <2022-01-04 11:17:53.6486> Xopero.Core.Utils.EngineLogger 
+Task package 9e42f661-a77e-4427-b9ce-891e233b2ca1 is not currently run.
+
+
+[INFO] <2022-01-04 11:17:53.6527> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '1db165a2-3491-45e4-9182-592cbae5652a'
+
+
+[INFO] <2022-01-04 11:17:53.6527> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:17:53.6527> Xopero.Core.Utils.EngineLogger 
+Task '1db165a2-3491-45e4-9182-592cbae5652a' state changed: Running
+
+
+[ERROR] <2022-01-04 11:17:53.6527> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:17:54.6822> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://oauth2:f6598ca6f8fcfd1ed49abb8359cbbfe70f91d291ee5558b1887a22a37324b38c@gitlab.com/TetianaLutsenko/test387_8.git
+
+
+[INFO] <2022-01-04 11:17:54.9891> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:17:55.8056> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:17:55.8056> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:17:56.0761> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:17:56.0761> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:17:56.3316> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:17:56.3316> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:17:56.8256> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:17:56.8256> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:17:57.3211> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:17:57.5803> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:17:58.4925> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:17:58.4925> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:17:58.5018> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:17:58.5018> Xopero.Core.Utils.EngineLogger 
+Task '1db165a2-3491-45e4-9182-592cbae5652a' state changed: Completed
+
+
+[INFO] <2022-01-04 11:17:58.5018> Xopero.Core.Utils.EngineLogger 
+Task '1db165a2-3491-45e4-9182-592cbae5652a' completed with result: 
+{
+  "TimeElapsed": 5,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 1161,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:17:59.6980> Xopero.Core.Utils.EngineLogger 
+Task '1db165a2-3491-45e4-9182-592cbae5652a' was removed
+
+
+[INFO] <2022-01-04 11:22:36.3628> Xopero.Core.Utils.EngineLogger 
+Task package 1b08dff9-4721-4b7b-94f8-e40fc4705c91 is not currently run.
+
+
+[INFO] <2022-01-04 11:22:36.3628> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'f01d4cec-5994-4391-99e2-bb29d5ffd263'
+
+
+[INFO] <2022-01-04 11:22:36.3628> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:22:36.3716> Xopero.Core.Utils.EngineLogger 
+Task 'f01d4cec-5994-4391-99e2-bb29d5ffd263' state changed: Running
+
+
+[ERROR] <2022-01-04 11:22:36.3716> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:22:40.8010> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://github.com/TetianaLutsenko/test387_gitlub1.git
+
+
+[INFO] <2022-01-04 11:22:41.2968> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:22:42.4121> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    00000000
+
+
+[INFO] <2022-01-04 11:22:42.4121> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:22:42.5901> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:22:42.5901> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:22:42.7710> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    001eng refs/heads/main failed
+    00000000
+
+
+[INFO] <2022-01-04 11:22:42.7710> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:22:42.9484> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:22:42.9496> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:22:43.1356> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    001eng refs/heads/main failed
+    00000000
+
+
+[INFO] <2022-01-04 11:22:43.1434> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:22:43.4881> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:22:43.4881> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:22:43.5004> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:22:43.5004> Xopero.Core.Utils.EngineLogger 
+Task 'f01d4cec-5994-4391-99e2-bb29d5ffd263' state changed: Completed
+
+
+[INFO] <2022-01-04 11:22:43.5004> Xopero.Core.Utils.EngineLogger 
+Task 'f01d4cec-5994-4391-99e2-bb29d5ffd263' completed with result: 
+{
+  "TimeElapsed": 7,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 1161,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:22:45.4238> Xopero.Core.Utils.EngineLogger 
+Task 'f01d4cec-5994-4391-99e2-bb29d5ffd263' was removed
+
+
+[INFO] <2022-01-04 11:23:46.9480> Xopero.Core.Utils.EngineLogger 
+Task package a4b79465-e446-4d67-98a3-e631d148db01 is not currently run.
+
+
+[INFO] <2022-01-04 11:23:46.9534> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '4d879c37-16af-4503-851a-7372e6df7db4'
+
+
+[INFO] <2022-01-04 11:23:46.9534> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:23:46.9534> Xopero.Core.Utils.EngineLogger 
+Task '4d879c37-16af-4503-851a-7372e6df7db4' state changed: Running
+
+
+[ERROR] <2022-01-04 11:23:46.9534> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:23:49.7963> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://t_lutsenko@bitbucket.org/t_lutsenko/test387_gitlub.git
+
+
+[INFO] <2022-01-04 11:23:50.4224> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:23:51.9364> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 11:23:51.9364> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:23:52.5602> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:23:52.5602> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:23:53.1389> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:23:53.1389> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:23:53.7201> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:23:53.7201> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:23:54.2934> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 11:23:54.2934> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 11:23:54.6792> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:23:54.6792> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:23:54.6919> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:23:54.6919> Xopero.Core.Utils.EngineLogger 
+Task '4d879c37-16af-4503-851a-7372e6df7db4' state changed: Completed
+
+
+[INFO] <2022-01-04 11:23:54.6919> Xopero.Core.Utils.EngineLogger 
+Task '4d879c37-16af-4503-851a-7372e6df7db4' completed with result: 
+{
+  "TimeElapsed": 8,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 1161,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:23:56.0081> Xopero.Core.Utils.EngineLogger 
+Task '4d879c37-16af-4503-851a-7372e6df7db4' was removed
+
+
+[INFO] <2022-01-04 11:46:16.8381> Xopero.Core.Utils.EngineLogger 
+Task package 388a7765-d198-43df-a8de-b5d518ff3a51 is not currently run.
+
+
+[INFO] <2022-01-04 11:46:16.8476> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'e0069b48-d691-4214-a97f-fd6fcf0bbee0'
+
+
+[INFO] <2022-01-04 11:46:16.8476> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 11:46:16.8476> Xopero.Core.Utils.EngineLogger 
+Task 'e0069b48-d691-4214-a97f-fd6fcf0bbee0' state changed: Running
+
+
+[ERROR] <2022-01-04 11:46:16.8476> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:46:19.1718> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://192.168.4.36:7990/scm/b88a1d8e/test387_gitlub.git
+
+
+[INFO] <2022-01-04 11:46:19.8051> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 11:46:20.7537> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[ERROR] <2022-01-04 11:46:20.7537> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:537)
+    Unable to create resource '/TetianaLutsenko/test387/wiki_ced8805a-fcd2-4123-a54b-1fa650dd6887.tmp'
+
+
+[ERROR] <2022-01-04 11:46:20.7537> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:540)
+    An exception was thrown: NotSupportedException, Message: Specified method is not supported.
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.Integration.Plugin.BitBucketDC.WikiScmProtocol(Repository repository)
+       at #GSd.#UBg.#QBg(ResourceKindValue #JOd, Repository #e9c, ApiPlugin #RBg, Int32 #Z1f, ITaskControl #If)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.createResource(ContentResource resource, Int32 bufferSize)
+       at BackupEngine.Storage.#0K.#NK()
+
+
+[ERROR] <2022-01-04 11:46:20.7537> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:498)
+    An exception was thrown: EngineException, Message: UnableToCreateResource
+       at BackupEngine.Storage.#0K.#NK()
+       at BackupEngine.CallTracing.Execute(Func`1 function, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 11:46:20.7537> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCreateResource
+
+
+[INFO] <2022-01-04 11:46:20.9265> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:46:20.9265> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:46:21.0586> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 11:46:21.0586> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 11:46:21.2394> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 11:46:21.2394> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 11:46:21.4103> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 11:46:21.4103> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 11:46:21.7160> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 11:46:21.7160> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 11:46:21.7342> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 11:46:21.7342> Xopero.Core.Utils.EngineLogger 
+Task 'e0069b48-d691-4214-a97f-fd6fcf0bbee0' state changed: Completed
+
+
+[INFO] <2022-01-04 11:46:21.7342> Xopero.Core.Utils.EngineLogger 
+Task 'e0069b48-d691-4214-a97f-fd6fcf0bbee0' completed with result: 
+{
+  "TimeElapsed": 5,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 10
+  },
+  "BytesRestored": 1103,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitKnowledgeBase": 3
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 11:46:22.8877> Xopero.Core.Utils.EngineLogger 
+Task 'e0069b48-d691-4214-a97f-fd6fcf0bbee0' was removed
+
+
+[INFO] <2022-01-04 12:11:23.2988> Xopero.Core.Utils.EngineLogger 
+Task package da55ca38-7f5b-45af-9d81-b3c979869bb1 is not currently run.
+
+
+[INFO] <2022-01-04 12:11:23.2988> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'b1812478-1dc1-4290-9eda-f5fb6de8b207'
+
+
+[INFO] <2022-01-04 12:11:23.3090> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:11:23.3090> Xopero.Core.Utils.EngineLogger 
+Task 'b1812478-1dc1-4290-9eda-f5fb6de8b207' state changed: Running
+
+
+[ERROR] <2022-01-04 12:11:23.3090> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:12:01.5895> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://oauth2:FbUbxRY3g_yxbnKrszHx@192.168.4.18/root/test387_1.git
+
+
+[INFO] <2022-01-04 12:12:06.4950> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:12:31.4476> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0017ok refs/heads/main
+    0000
+
+
+[INFO] <2022-01-04 12:12:31.4517> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 12:12:32.0205> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:12:32.0205> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 12:12:32.5243> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:12:32.5243> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 12:12:33.0069> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:12:33.0069> Xopero.Core.Utils.EngineLogger 
+refs/heads/main
+
+
+[INFO] <2022-01-04 12:12:34.0874> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0026ng refs/heads/main unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:12:35.4711> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore member 10500307: {"message":"404 User Not Found"}
+
+
+[ERROR] <2022-01-04 12:12:35.4711> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitMembers restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:12:35.4711> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:12:35.4711> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:12:35.4926> Xopero.Core.Utils.EngineLogger 
+No branches found in copy
+
+
+[INFO] <2022-01-04 12:12:38.4150> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:12:38.4150> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:12:38.4231> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:12:38.4231> Xopero.Core.Utils.EngineLogger 
+Task 'b1812478-1dc1-4290-9eda-f5fb6de8b207' state changed: Completed
+
+
+[INFO] <2022-01-04 12:12:38.4231> Xopero.Core.Utils.EngineLogger 
+Task 'b1812478-1dc1-4290-9eda-f5fb6de8b207' completed with result: 
+{
+  "TimeElapsed": 75,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 10
+  },
+  "BytesRestored": 943,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitMembers": 1
+    },
+    "Count": 1
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:12:38.6297> Xopero.Core.Utils.EngineLogger 
+Task 'b1812478-1dc1-4290-9eda-f5fb6de8b207' was removed
+
+
+[INFO] <2022-01-04 12:20:39.1691> Xopero.Core.Utils.EngineLogger 
+Task package b683f547-8b63-4563-bb61-4fc2a29d5681 is not currently run.
+
+
+[INFO] <2022-01-04 12:20:39.1691> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'd1faf877-c547-4846-a59b-ffce8c9c6aa4'
+
+
+[INFO] <2022-01-04 12:20:39.1691> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:20:39.1691> Xopero.Core.Utils.EngineLogger 
+Task 'd1faf877-c547-4846-a59b-ffce8c9c6aa4' state changed: Running
+
+
+[ERROR] <2022-01-04 12:20:39.1691> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:20:52.7480> Xopero.Core.Utils.EngineLogger 
+Task package e3a9db24-088e-45aa-919e-162d3aa227d1 is not currently run.
+
+
+[INFO] <2022-01-04 12:20:52.7480> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'd2f5ac26-e477-4e52-953c-05187e676219'
+
+
+[INFO] <2022-01-04 12:20:52.7480> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:20:52.7480> Xopero.Core.Utils.EngineLogger 
+Task 'd2f5ac26-e477-4e52-953c-05187e676219' state changed: Running
+
+
+[INFO] <2022-01-04 12:20:57.0568> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://github.com/TetianaLutsenko/Restaurant_pullbranch_1641295251842.git
+
+
+[INFO] <2022-01-04 12:20:57.5523> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:20:58.3339> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    00000000
+
+
+[INFO] <2022-01-04 12:20:58.9216> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376582
+
+
+[INFO] <2022-01-04 12:20:59.1885> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376614
+
+
+[INFO] <2022-01-04 12:20:59.4585> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376629
+
+
+[INFO] <2022-01-04 12:20:59.6057> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://oauth2:FbUbxRY3g_yxbnKrszHx@192.168.4.18/root/Restaurant_pullbranch_1641295229002.git
+
+
+[INFO] <2022-01-04 12:20:59.7316> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376656
+
+
+[INFO] <2022-01-04 12:21:00.0719> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376672
+
+
+[INFO] <2022-01-04 12:21:00.3566> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376680
+
+
+[INFO] <2022-01-04 12:21:00.6872> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376707
+
+
+[INFO] <2022-01-04 12:21:01.2772> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376715
+
+
+[INFO] <2022-01-04 12:21:01.7006> Xopero.Core.Utils.EngineLogger 
+Successfully created label 3601376717
+
+
+[INFO] <2022-01-04 12:21:02.0178> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:02.1115> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:02.2906> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /f/nw/f6/c7/ce/419454639/444391613.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:21:03.4496> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 1
+
+
+[INFO] <2022-01-04 12:21:06.0305> Xopero.Core.Utils.EngineLogger 
+Successfully restored 1 assignees to issue 1093256605
+
+
+[INFO] <2022-01-04 12:21:08.4198> Xopero.Core.Utils.EngineLogger 
+Successfully restored 1 assignees to issue 1093256654
+
+
+[INFO] <2022-01-04 12:21:10.6800> Xopero.Core.Utils.EngineLogger 
+Successfully restored 1 assignees to issue 1093256677
+
+
+[INFO] <2022-01-04 12:21:11.9226> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 4
+
+
+[INFO] <2022-01-04 12:21:16.1009> Xopero.Core.Utils.EngineLogger 
+Successfully restored 1 assignees to issue 1093256706
+
+
+[INFO] <2022-01-04 12:21:17.0749> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 6
+
+
+[INFO] <2022-01-04 12:21:18.3825> Xopero.Core.Utils.EngineLogger 
+Task package 6afe63d1-1708-4dea-8750-ace7e97b3361 is not currently run.
+
+
+[INFO] <2022-01-04 12:21:18.3825> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '2a9516a4-55c3-4a84-af1b-c35cac350f80'
+
+
+[INFO] <2022-01-04 12:21:18.3882> Xopero.Core.Utils.EngineLogger 
+Task '2a9516a4-55c3-4a84-af1b-c35cac350f80' state changed: Running
+
+
+[INFO] <2022-01-04 12:21:18.3882> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:21:20.2326> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:21:26.7288> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://oauth2:FbUbxRY3g_yxbnKrszHx@192.168.4.18/root/Restaurant_test387_1641295272454.git
+
+
+[INFO] <2022-01-04 12:21:27.9075> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[ERROR] <2022-01-04 12:21:31.0508> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label bug: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.2486> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label documentation: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.3394> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label duplicate: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.4319> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label enhancement: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.5529> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label good first issue: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.6563> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label help wanted: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:31.9584> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label invalid: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:32.0551> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label question: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:32.1667> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label wontfix: {"message":{"color":["must be a valid color code"]}}
+
+
+[ERROR] <2022-01-04 12:21:32.1683> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitLabels restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:21:32.1683> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:21:32.1683> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:21:33.2456> Xopero.Core.Utils.EngineLogger 
+Task package 70b166a4-a8b7-48a1-8aa6-5418d15e28e1 is not currently run.
+
+
+[INFO] <2022-01-04 12:21:33.2521> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'b3fbd259-709b-4196-a9c5-97aa2f6a4ded'
+
+
+[INFO] <2022-01-04 12:21:33.2521> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:21:33.2521> Xopero.Core.Utils.EngineLogger 
+Task 'b3fbd259-709b-4196-a9c5-97aa2f6a4ded' state changed: Running
+
+
+[INFO] <2022-01-04 12:21:33.3463> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:33.7926> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://192.168.4.36:7990/scm/b88a1d8e/restaurant_test387_1641295286951.git
+
+
+[INFO] <2022-01-04 12:21:33.9545> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:34.6539> Xopero.Core.Utils.EngineLogger 
+Successfully updated pull-request 5
+
+
+[INFO] <2022-01-04 12:21:34.6539> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[ERROR] <2022-01-04 12:21:34.6761> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:537)
+    Unable to create resource '/TetianaLutsenko/Restaurant_test387/wiki_fe873559-a29e-4df3-ae5c-72f1b14a281f.tmp'
+
+
+[ERROR] <2022-01-04 12:21:34.6761> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:540)
+    An exception was thrown: NotSupportedException, Message: Specified method is not supported.
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.Integration.Plugin.BitBucketDC.WikiScmProtocol(Repository repository)
+       at #GSd.#UBg.#QBg(ResourceKindValue #JOd, Repository #e9c, ApiPlugin #RBg, Int32 #Z1f, ITaskControl #If)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.createResource(ContentResource resource, Int32 bufferSize)
+       at BackupEngine.Storage.#0K.#NK()
+
+
+[ERROR] <2022-01-04 12:21:34.6761> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:498)
+    An exception was thrown: EngineException, Message: UnableToCreateResource
+       at BackupEngine.Storage.#0K.#NK()
+       at BackupEngine.CallTracing.Execute(Func`1 function, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:21:34.6761> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCreateResource
+
+
+[INFO] <2022-01-04 12:21:34.8269> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:34.8269> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:34.8595> Xopero.Core.Utils.EngineLogger 
+Skipping collaborator restore for user TetianaLutsenko.
+
+
+[INFO] <2022-01-04 12:21:34.8866> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:21:34.8866> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[INFO] <2022-01-04 12:21:34.9043> Xopero.Core.Utils.EngineLogger 
+Task 'd2f5ac26-e477-4e52-953c-05187e676219' state changed: Completed
+
+
+[INFO] <2022-01-04 12:21:34.9043> Xopero.Core.Utils.EngineLogger 
+Task 'd2f5ac26-e477-4e52-953c-05187e676219' completed with result: 
+{
+  "TimeElapsed": 42,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 15
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 15
+  },
+  "BytesRestored": 37955,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:21:34.9711> Xopero.Core.Utils.EngineLogger 
+Task 'd2f5ac26-e477-4e52-953c-05187e676219' was removed
+
+
+[INFO] <2022-01-04 12:21:34.9711> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:21:34.9805> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 12:21:35.1440> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:35.1440> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:35.2611> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:21:35.2637> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 12:21:35.5609> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:21:35.5609> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[INFO] <2022-01-04 12:21:35.5609> Xopero.Core.Utils.EngineLogger 
+Task 'b3fbd259-709b-4196-a9c5-97aa2f6a4ded' state changed: Completed
+
+
+[INFO] <2022-01-04 12:21:35.5609> Xopero.Core.Utils.EngineLogger 
+Task 'b3fbd259-709b-4196-a9c5-97aa2f6a4ded' completed with result: 
+{
+  "TimeElapsed": 2,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 10
+  },
+  "BytesRestored": 4926,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitKnowledgeBase": 3
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:21:35.6029> Xopero.Core.Utils.EngineLogger 
+Task 'b3fbd259-709b-4196-a9c5-97aa2f6a4ded' was removed
+
+
+[INFO] <2022-01-04 12:21:38.5567> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:21:39.7609> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:21:40.3784> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:44.0405> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:21:44.7064> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:44.7064> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:49.1062> Xopero.Core.Utils.EngineLogger 
+Task package 7d55c831-c9e7-48cb-bb80-5910f8cd0561 is not currently run.
+
+
+[INFO] <2022-01-04 12:21:49.1062> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier '495e678b-f726-44aa-a82a-f5445373fc51'
+
+
+[INFO] <2022-01-04 12:21:49.1062> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:21:49.1062> Xopero.Core.Utils.EngineLogger 
+Task '495e678b-f726-44aa-a82a-f5445373fc51' state changed: Running
+
+
+[INFO] <2022-01-04 12:21:49.9729> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:21:50.4390> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:21:50.4390> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:50.8279> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:21:52.0397> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:52.0397> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:52.8020> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:21:52.9115> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore member 10500307: {"message":"404 User Not Found"}
+
+
+[ERROR] <2022-01-04 12:21:52.9115> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitMembers restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:21:52.9115> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:21:52.9115> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:21:53.0576> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://github.com/TetianaLutsenko/Restaurant_test387_1641295303390.git
+
+
+[INFO] <2022-01-04 12:21:53.5075> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:53.9731> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    00000000
+
+
+[INFO] <2022-01-04 12:21:54.2360> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:54.4172> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /3/nw/3d/61/77/419454882/444391912.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:21:54.6027> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:54.6027> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:54.7867> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:21:54.9671> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:55.1803> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /3/nw/3d/61/77/419454882/444391912.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:21:55.3477> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:21:55.3477> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:21:55.5272> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[ERROR] <2022-01-04 12:21:55.7344> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:21:55.9569> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:21:56.1705> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:21:56.1705> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitMilestones restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:21:56.1705> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:21:56.1705> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[ERROR] <2022-01-04 12:21:56.6105> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:21:57.0510> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:21:57.4750> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[INFO] <2022-01-04 12:21:57.8236> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:21:57.8244> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[ERROR] <2022-01-04 12:21:57.9100> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:21:57.9100> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitLabels restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:21:57.9100> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:21:57.9100> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:21:58.1042> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:21:58.2838> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /3/nw/3d/61/77/419454882/444391912.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:21:58.3484> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:21:59.4086> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066209
+
+
+[ERROR] <2022-01-04 12:22:01.4226> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:22:01.4226> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:22:01.4226> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[INFO] <2022-01-04 12:22:02.4790> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066214
+
+
+[ERROR] <2022-01-04 12:22:04.4910> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitIssues restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:22:04.4910> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:22:04.4910> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:22:04.5060> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:22:04.5060> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[INFO] <2022-01-04 12:22:04.5155> Xopero.Core.Utils.EngineLogger 
+Task '495e678b-f726-44aa-a82a-f5445373fc51' state changed: Completed
+
+
+[INFO] <2022-01-04 12:22:04.5155> Xopero.Core.Utils.EngineLogger 
+Task '495e678b-f726-44aa-a82a-f5445373fc51' completed with result: 
+{
+  "TimeElapsed": 15,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitKnowledgeBase": 1,
+      "GitMembers": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 8
+  },
+  "BytesRestored": 1322,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:22:07.2071> Xopero.Core.Utils.EngineLogger 
+Task '495e678b-f726-44aa-a82a-f5445373fc51' was removed
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Object reference not set to an instance of an object.
+
+
+[ERROR] <2022-01-04 12:22:15.3497> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitHooks restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The method or operation is not implemented.
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitCollaborators restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:22:15.3547> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:22:15.3830> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:22:15.3830> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[INFO] <2022-01-04 12:22:15.3920> Xopero.Core.Utils.EngineLogger 
+Task 'd1faf877-c547-4846-a59b-ffce8c9c6aa4' state changed: Completed
+
+
+[INFO] <2022-01-04 12:22:15.3920> Xopero.Core.Utils.EngineLogger 
+Task 'd1faf877-c547-4846-a59b-ffce8c9c6aa4' completed with result: 
+{
+  "TimeElapsed": 96,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitCollaborators": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 15
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitDownloads": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitMilestones": 1,
+      "GitProjects": 1,
+      "GitPullRequests": 1,
+      "GitReleaseAssets": 1,
+      "GitReleases": 1,
+      "GitRepository": 1,
+      "GitTeams": 1
+    },
+    "Count": 12
+  },
+  "BytesRestored": 33926,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitCollaborators": 1,
+      "GitHooks": 1,
+      "GitLabels": 1
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:22:15.4125> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:22:15.4125> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:22:15.4211> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:22:15.4211> Xopero.Core.Utils.EngineLogger 
+Task '2a9516a4-55c3-4a84-af1b-c35cac350f80' state changed: Completed
+
+
+[INFO] <2022-01-04 12:22:15.4211> Xopero.Core.Utils.EngineLogger 
+Task '2a9516a4-55c3-4a84-af1b-c35cac350f80' completed with result: 
+{
+  "TimeElapsed": 57,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 10
+  },
+  "BytesRestored": 4908,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitMembers": 1
+    },
+    "Count": 1
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:22:15.6286> Xopero.Core.Utils.EngineLogger 
+Task 'd1faf877-c547-4846-a59b-ffce8c9c6aa4' was removed
+
+
+[INFO] <2022-01-04 12:22:15.6489> Xopero.Core.Utils.EngineLogger 
+Task '2a9516a4-55c3-4a84-af1b-c35cac350f80' was removed
+
+
+[INFO] <2022-01-04 12:24:28.6248> Xopero.Core.Utils.EngineLogger 
+Task package 0fdcbb90-c095-4442-8984-e8a94533f3a1 is not currently run.
+
+
+[INFO] <2022-01-04 12:24:28.6248> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'eed4cea2-21f4-4f6d-b646-2e23b4875fb1'
+
+
+[INFO] <2022-01-04 12:24:28.6248> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:24:28.6248> Xopero.Core.Utils.EngineLogger 
+Task 'eed4cea2-21f4-4f6d-b646-2e23b4875fb1' state changed: Running
+
+
+[ERROR] <2022-01-04 12:24:28.6248> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:24:29.1037> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: http://192.168.4.36:7990/scm/b88a1d8e/restaurant_test387_1641295461201.git
+
+
+[INFO] <2022-01-04 12:24:29.2368> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:24:29.9696> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[ERROR] <2022-01-04 12:24:29.9696> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:537)
+    Unable to create resource '/TetianaLutsenko/Restaurant_test387/wiki_49b12b08-be72-4f74-bc75-696073d692ac.tmp'
+
+
+[ERROR] <2022-01-04 12:24:29.9696> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:540)
+    An exception was thrown: NotSupportedException, Message: Specified method is not supported.
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.Integration.Plugin.BitBucketDC.WikiScmProtocol(Repository repository)
+       at #GSd.#UBg.#QBg(ResourceKindValue #JOd, Repository #e9c, ApiPlugin #RBg, Int32 #Z1f, ITaskControl #If)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.createResource(ContentResource resource, Int32 bufferSize)
+       at BackupEngine.Storage.#0K.#NK()
+
+
+[ERROR] <2022-01-04 12:24:29.9696> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: Create (Storage.cs:498)
+    An exception was thrown: EngineException, Message: UnableToCreateResource
+       at BackupEngine.Storage.#0K.#NK()
+       at BackupEngine.CallTracing.Execute(Func`1 function, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:24:29.9696> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCreateResource
+
+
+[INFO] <2022-01-04 12:24:30.1688> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:24:30.1688> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:24:30.3255> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:24:30.3255> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 12:24:30.4384> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:24:30.4384> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:24:30.5485> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[ERROR] <2022-01-04 12:24:30.5485> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: Assertion failed RestoreSession.cs:80
+
+
+[INFO] <2022-01-04 12:24:30.7894> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:24:30.7894> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:24:30.7975> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:24:30.7975> Xopero.Core.Utils.EngineLogger 
+Task 'eed4cea2-21f4-4f6d-b646-2e23b4875fb1' state changed: Completed
+
+
+[INFO] <2022-01-04 12:24:30.7975> Xopero.Core.Utils.EngineLogger 
+Task 'eed4cea2-21f4-4f6d-b646-2e23b4875fb1' completed with result: 
+{
+  "TimeElapsed": 2,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 10
+  },
+  "BytesRestored": 4926,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitKnowledgeBase": 3
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:24:30.8417> Xopero.Core.Utils.EngineLogger 
+Task 'eed4cea2-21f4-4f6d-b646-2e23b4875fb1' was removed
+
+
+[INFO] <2022-01-04 12:25:35.9169> Xopero.Core.Utils.EngineLogger 
+Task package e7d315fa-bca6-4d4f-b469-94d174328221 is not currently run.
+
+
+[INFO] <2022-01-04 12:25:35.9214> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'bdfe83b2-25a1-4e52-bd46-63a2f7ee4d05'
+
+
+[INFO] <2022-01-04 12:25:35.9214> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:25:35.9214> Xopero.Core.Utils.EngineLogger 
+Task 'bdfe83b2-25a1-4e52-bd46-63a2f7ee4d05' state changed: Running
+
+
+[ERROR] <2022-01-04 12:25:35.9214> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:25:38.1459> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://t_lutsenko@bitbucket.org/t_lutsenko/restaurant_test387_1641295530982.git
+
+
+[INFO] <2022-01-04 12:25:38.8608> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:25:46.5131> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:25:47.4802> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:25:47.4810> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 12:25:48.4240> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    0019ok refs/heads/master
+    0000
+
+
+[INFO] <2022-01-04 12:25:49.4903> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:25:49.4903> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:25:50.0507> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:25:50.6733> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:25:50.6733> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 12:25:51.2661> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:25:51.8184> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:25:51.8184> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:25:52.7697> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0039ng refs/heads/TetianaLutsenko-patch-1 unpacker error
+    0029ng refs/heads/branch1 unpacker error
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:25:53.4089> Xopero.Core.Utils.EngineLogger 
+Found 1 branches
+
+
+[INFO] <2022-01-04 12:25:53.4089> Xopero.Core.Utils.EngineLogger 
+refs/heads/master
+
+
+[INFO] <2022-01-04 12:25:53.9847> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0031unpack eof before pack header was fully read
+    0028ng refs/heads/master unpacker error
+    0000
+
+
+[INFO] <2022-01-04 12:25:55.2334> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:25:55.2334> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:25:55.2334> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:25:55.2334> Xopero.Core.Utils.EngineLogger 
+Task 'bdfe83b2-25a1-4e52-bd46-63a2f7ee4d05' state changed: Completed
+
+
+[INFO] <2022-01-04 12:25:55.2334> Xopero.Core.Utils.EngineLogger 
+Task 'bdfe83b2-25a1-4e52-bd46-63a2f7ee4d05' completed with result: 
+{
+  "TimeElapsed": 19,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "BytesRestored": 5126,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:25:57.0236> Xopero.Core.Utils.EngineLogger 
+Task 'bdfe83b2-25a1-4e52-bd46-63a2f7ee4d05' was removed
+
+
+[INFO] <2022-01-04 12:26:55.6691> Xopero.Core.Utils.EngineLogger 
+Task package f4170385-365c-4201-b4d4-3d4338da71e1 is not currently run.
+
+
+[INFO] <2022-01-04 12:26:55.6691> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'aa1d1b53-3976-448f-b89e-814701fc4367'
+
+
+[INFO] <2022-01-04 12:26:55.6691> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:26:55.6691> Xopero.Core.Utils.EngineLogger 
+Task 'aa1d1b53-3976-448f-b89e-814701fc4367' state changed: Running
+
+
+[ERROR] <2022-01-04 12:26:55.6691> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:26:59.6698> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://github.com/TetianaLutsenko/Restaurant_test387_1641295609544.git
+
+
+[INFO] <2022-01-04 12:27:00.1743> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:27:00.6867> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    00000000
+
+
+[INFO] <2022-01-04 12:27:01.0442> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:27:01.4422> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9f/e1/10/419456061/444393328.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:27:01.7358> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:27:01.7358> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:27:01.9412> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:27:02.1723> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:27:02.3868> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9f/e1/10/419456061/444393328.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:27:02.5842> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:27:02.5842> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:27:02.7787> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[ERROR] <2022-01-04 12:27:03.0359> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:27:03.2640> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:27:03.5181> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:27:03.5181> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitMilestones restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:27:03.5181> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:27:03.5181> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[ERROR] <2022-01-04 12:27:04.0089> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:27:04.4826> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:27:04.9185> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:27:05.3640> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:27:05.3640> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitLabels restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:27:05.3640> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:27:05.3640> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:27:05.5374> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:27:05.7257> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9f/e1/10/419456061/444393328.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:27:06.9573> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066209
+
+
+[ERROR] <2022-01-04 12:27:08.9699> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:27:08.9699> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:27:08.9699> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[INFO] <2022-01-04 12:27:10.0077> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066214
+
+
+[ERROR] <2022-01-04 12:27:12.0206> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitIssues restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:27:12.0206> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:27:12.0206> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:27:12.0356> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:27:12.0356> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:27:12.0467> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:27:12.0467> Xopero.Core.Utils.EngineLogger 
+Task 'aa1d1b53-3976-448f-b89e-814701fc4367' state changed: Completed
+
+
+[INFO] <2022-01-04 12:27:12.0467> Xopero.Core.Utils.EngineLogger 
+Task 'aa1d1b53-3976-448f-b89e-814701fc4367' completed with result: 
+{
+  "TimeElapsed": 16,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitKnowledgeBase": 1,
+      "GitMembers": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 8
+  },
+  "BytesRestored": 1322,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:27:13.7699> Xopero.Core.Utils.EngineLogger 
+Task 'aa1d1b53-3976-448f-b89e-814701fc4367' was removed
+
+
+[INFO] <2022-01-04 12:37:58.5169> Xopero.Core.Utils.EngineLogger 
+Task package 02615e7a-be91-47e4-b12c-c5118776c851 is not currently run.
+
+
+[INFO] <2022-01-04 12:37:58.5169> Xopero.Core.Utils.EngineLogger 
+Running task 'RestoreTask' with identifier 'f3842acb-425e-4724-8aff-a8036c0fecf8'
+
+
+[INFO] <2022-01-04 12:37:58.5169> Xopero.Core.Utils.EngineLogger 
+Task 'f3842acb-425e-4724-8aff-a8036c0fecf8' state changed: Running
+
+
+[ERROR] <2022-01-04 12:37:58.5169> Xopero.Core.Utils.EngineLogger 
+PowerSetRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:37:58.5169> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: started
+
+
+[INFO] <2022-01-04 12:38:03.1716> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: createRepository (GitCloudStorage.cs:598)
+    Created repository: https://github.com/TetianaLutsenko/Restaurant_test387_issues.git
+
+
+[INFO] <2022-01-04 12:38:03.6749> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:38:04.1975> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    000eunpack ok
+    002aok refs/heads/TetianaLutsenko-patch-1
+    001aok refs/heads/branch1
+    0019ok refs/heads/master
+    00000000
+
+
+[INFO] <2022-01-04 12:38:04.4738> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:38:04.6715> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9d/c4/11/419458574/444396461.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:38:04.8679> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:38:04.8679> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:38:05.0639> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:38:05.2538> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:38:05.4409> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9d/c4/11/419458574/444396461.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:38:05.6354> Xopero.Core.Utils.EngineLogger 
+Found 3 branches
+
+
+[INFO] <2022-01-04 12:38:05.6361> Xopero.Core.Utils.EngineLogger 
+refs/heads/TetianaLutsenko-patch-1, refs/heads/branch1, refs/heads/master
+
+
+[INFO] <2022-01-04 12:38:05.8334> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    00360031unpack eof before pack header was fully read
+    0031ng refs/heads/TetianaLutsenko-patch-1 failed
+    0021ng refs/heads/branch1 failed
+    0020ng refs/heads/master failed
+    00000000
+
+
+[ERROR] <2022-01-04 12:38:06.0651> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:38:06.2776> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:38:06.4941> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore milestone 2402264: {"message":"Invalid request.\n\nactive is not a member of [\"open\", \"closed\"].","documentation_url":"https://docs.github.com/rest/reference/issues#create-a-milestone"}
+
+
+[ERROR] <2022-01-04 12:38:06.4941> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitMilestones restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:38:06.4959> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:38:06.4959> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[ERROR] <2022-01-04 12:38:06.9359> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:38:07.3755> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:38:07.8632> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:38:08.3274> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    Cannot restore label 0: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/issues#update-a-label"}
+
+
+[ERROR] <2022-01-04 12:38:08.3274> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitLabels restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:38:08.3274> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:38:08.3274> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:38:08.5018> Xopero.Core.Utils.EngineLogger 
+Found 0 branches
+
+
+[INFO] <2022-01-04 12:38:08.6935> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Push (HttpProtocolTransport.cs:174)
+    0062005dERR access denied or repository not exported: /9/nw/9d/c4/11/419458574/444396461.wiki.git0020ng refs/heads/master failed
+    00000000
+
+
+[INFO] <2022-01-04 12:38:09.7207> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066209
+
+
+[ERROR] <2022-01-04 12:38:11.7322> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:38:11.7322> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[ERROR] <2022-01-04 12:38:11.7322> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: streamProcessor (UploadTask.cs:174)
+    The given key '2402264' was not present in the dictionary.
+
+
+[INFO] <2022-01-04 12:38:12.7314> Xopero.Core.Utils.EngineLogger 
+Successfully updated issue 100066214
+
+
+[ERROR] <2022-01-04 12:38:14.7439> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:793)
+    An exception was thrown: Exception, Message: GitIssues restore failure
+       at #WBg.#VBg.#OHd()
+       at #GSd.#OBg.#Uab()
+       at #GSd.#UBg.#Uab(Guid #TBg)
+       at BackupEngine.Plugins.Standard.Storages.GitCloud.GitCloudStorage.closeResourceHandle(ResourceHandle handle)
+       at BackupEngine.Storage.#9K.#1K()
+
+
+[ERROR] <2022-01-04 12:38:14.7439> Xopero.Core.Utils.EngineLogger 
+An error has occurred in member: CloseHandle (Storage.cs:768)
+    An exception was thrown: EngineException, Message: UnableToCloseResourceHandle
+       at BackupEngine.Storage.#9K.#1K()
+       at BackupEngine.CallTracing.Execute(Action action, String memberName, String filePath, Int32 lineNumber)
+
+
+[ERROR] <2022-01-04 12:38:14.7457> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: processing a resource 'BackupEngine.ContentResource' failed: UnableToCloseResourceHandle
+
+
+[INFO] <2022-01-04 12:38:14.7457> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: committed
+
+
+[INFO] <2022-01-04 12:38:14.7457> Xopero.Core.Utils.EngineLogger 
+Restore task [All Git Restore]: ended
+
+
+[ERROR] <2022-01-04 12:38:14.7678> Xopero.Core.Utils.EngineLogger 
+PowerClearRequest failed for PowerRequestDisplayRequired with 50
+
+
+[INFO] <2022-01-04 12:38:14.7678> Xopero.Core.Utils.EngineLogger 
+Task 'f3842acb-425e-4724-8aff-a8036c0fecf8' state changed: Completed
+
+
+[INFO] <2022-01-04 12:38:14.7678> Xopero.Core.Utils.EngineLogger 
+Task 'f3842acb-425e-4724-8aff-a8036c0fecf8' completed with result: 
+{
+  "TimeElapsed": 16,
+  "FoundCopies": 1,
+  "TotalResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitIssues": 1,
+      "GitKnowledgeBase": 1,
+      "GitLabels": 1,
+      "GitMembers": 1,
+      "GitMilestones": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 11
+  },
+  "ProcessedCopies": 1,
+  "RestoredResources": {
+    "ByKind": {
+      "GitAdvancedDetails": 1,
+      "GitDeploymentKeys": 1,
+      "GitHooks": 1,
+      "GitKnowledgeBase": 1,
+      "GitMembers": 1,
+      "GitPullRequests": 1,
+      "GitRepository": 1,
+      "GitVariables": 1
+    },
+    "Count": 8
+  },
+  "BytesRestored": 1322,
+  "OverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "NotOverwrittenResources": {
+    "ByKind": {},
+    "Count": 0
+  },
+  "ErrorResources": {
+    "ByKind": {
+      "GitIssues": 1,
+      "GitLabels": 1,
+      "GitMilestones": 1
+    },
+    "Count": 3
+  },
+  "Warnings": [],
+  "WarningsCount": 0,
+  "Errors": [],
+  "Details": {},
+  "Type": "restore"
+}
+
+
+[INFO] <2022-01-04 12:38:16.6283> Xopero.Core.Utils.EngineLogger 
+Task 'f3842acb-425e-4724-8aff-a8036c0fecf8' was removed
+
+
+[DEBUG] <2022-01-04 13:37:52.9177> Xopero.Device.App.Program+#dtc 
+RunDeviceService: Cancellation requested. Exiting.
+
+
+[INFO] <2022-01-04 13:37:52.9177> Xopero.Core.Utils.EngineLogger 
+BackupEngine service stopping (ApplicationId: '464fe9ed-811e-4fc0-9e1c-cd48fdcbc188')
+
+
+[INFO] <2022-01-04 13:37:52.9343> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Dispose (TaskManager.cs:619)
+    Task manager is shutting down
+
+
+[INFO] <2022-01-04 13:37:52.9343> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: Dispose (TaskManager.cs:642)
+    Disposed
+
+
+[INFO] <2022-01-04 13:37:52.9343> Xopero.Core.Utils.EngineLogger 
+BackupEngine service stopped (ApplicationId: '464fe9ed-811e-4fc0-9e1c-cd48fdcbc188')
+
+
+[INFO] <2022-01-04 13:37:52.9578> Xopero.Core.Utils.EngineLogger 
+An information was reported by a member: stop (VMwareService.cs:507)
+    VMware service stopped.
+
+
+[INFO] <2022-01-04 13:37:52.9833> Xopero.Management.Module.Network.Protocols.SignalR.SignalRDeviceClient 
+Connection has been closed
+
+
+[INFO] <2022-01-04 13:37:53.0023> Xopero.Device.App.Program 
+Program has been terminated correctly.
+
+
+[DEBUG] <2022-01-04 13:37:53.0023> Xopero.Device.App.Program 
+Shutting down log manager.
+
+
